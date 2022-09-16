@@ -1,6 +1,6 @@
 package com.example.Restaurant.infrastructure;
 
-import com.example.Restaurant.Entitys.State;
+import com.example.Restaurant.entitys.State;
 import com.example.Restaurant.repositorys.StateRepository;
 import org.springframework.stereotype.Component;
 import javax.persistence.EntityManager;

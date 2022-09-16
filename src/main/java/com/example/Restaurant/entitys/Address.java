@@ -1,4 +1,4 @@
-package com.example.Restaurant.Entitys;
+package com.example.Restaurant.entitys;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -74,10 +74,8 @@ public class Address {
         Address adress = (Address) o;
         return zip.equals(adress.zip) && publicPlace.equals(adress.publicPlace) && number.equals(adress.number) && complement.equals(adress.complement) && district.equals(adress.district) && city.equals(adress.city);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(zip, publicPlace, number, complement, district, city);
     }
-
 }

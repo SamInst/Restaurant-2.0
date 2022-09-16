@@ -1,6 +1,6 @@
 package com.example.Restaurant.Controllers;
 
-import com.example.Restaurant.Entitys.State;
+import com.example.Restaurant.entitys.State;
 import com.example.Restaurant.repositorys.StateRepository;
 import com.example.Restaurant.domain.Services.StateRegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;

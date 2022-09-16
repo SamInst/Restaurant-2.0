@@ -3,8 +3,8 @@ package com.example.Restaurant.Controllers;
 import java.util.List;
 import java.util.Optional;
 import java.math.BigDecimal;
-import com.example.Restaurant.Entitys.Kitchen;
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Kitchen;
+import com.example.Restaurant.entitys.Restaurant;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

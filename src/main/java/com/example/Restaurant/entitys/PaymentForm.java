@@ -1,35 +1,32 @@
-package com.example.Restaurant.Entitys;
+package com.example.Restaurant.entitys;
 
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table (name="tb_permissions")
-public class Permission {
+@Table(name = "tb_payment_form")
+public class PaymentForm {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    @Column(name = "name_permission")
-    private String namePermission;
-
     @Column(name = "description")
-    private String descripion;
-
-
-
-
+    private String description;
+    public String getToDescribe() {
+        return description;
+    }
     public void setId(Long id) {
         this.id = id;
     }
+
     public Long getId() {
         return id;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Permission that = (Permission) o;
+        PaymentForm that = (PaymentForm) o;
         return Objects.equals(id, that.id);
     }
     @Override

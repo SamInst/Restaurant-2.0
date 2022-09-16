@@ -1,6 +1,6 @@
 package com.example.Restaurant.Spec;
 
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Restaurant;
 import org.springframework.data.jpa.domain.Specification;
 
 import java.math.BigDecimal;

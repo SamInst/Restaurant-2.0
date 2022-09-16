@@ -1,6 +1,6 @@
 package com.example.Restaurant.Controllers;
 
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Restaurant;
 import com.example.Restaurant.domain.Exceptions.EntityInUse;
 import com.example.Restaurant.domain.Exceptions.EntityNotFound;
 import com.example.Restaurant.repositorys.RestaurantRepository;

@@ -1,6 +1,6 @@
 package com.example.Restaurant.domain.Services;
 
-import com.example.Restaurant.Entitys.State;
+import com.example.Restaurant.entitys.State;
 import com.example.Restaurant.domain.Exceptions.EntityInUse;
 import com.example.Restaurant.domain.Exceptions.EntityNotFound;
 import com.example.Restaurant.repositorys.StateRepository;

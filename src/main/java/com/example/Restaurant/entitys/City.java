@@ -1,4 +1,4 @@
-package com.example.Restaurant.Entitys;
+package com.example.Restaurant.entitys;
 
 import javax.persistence.*;
 import java.util.Objects;

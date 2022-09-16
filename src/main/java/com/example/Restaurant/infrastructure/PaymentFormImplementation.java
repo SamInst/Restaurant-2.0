@@ -1,6 +1,6 @@
 package com.example.Restaurant.infrastructure;
 
-import com.example.Restaurant.Entitys.PaymentForm;
+import com.example.Restaurant.entitys.PaymentForm;
 import com.example.Restaurant.repositorys.PaymentFormRepository;
 import org.springframework.stereotype.Component;
 

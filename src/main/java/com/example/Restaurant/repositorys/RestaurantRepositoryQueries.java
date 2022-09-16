@@ -1,6 +1,6 @@
 package com.example.Restaurant.repositorys;
 
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Restaurant;
 
 import java.math.BigDecimal;
 import java.util.List;

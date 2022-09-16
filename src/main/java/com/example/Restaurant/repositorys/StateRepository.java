@@ -1,6 +1,6 @@
 package com.example.Restaurant.repositorys;
 
-import com.example.Restaurant.Entitys.State;
+import com.example.Restaurant.entitys.State;
 import org.springframework.stereotype.Repository;
 
 

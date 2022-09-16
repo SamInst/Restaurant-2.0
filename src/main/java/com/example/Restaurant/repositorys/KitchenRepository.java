@@ -1,6 +1,6 @@
 package com.example.Restaurant.repositorys;
 
-import com.example.Restaurant.Entitys.Kitchen;
+import com.example.Restaurant.entitys.Kitchen;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

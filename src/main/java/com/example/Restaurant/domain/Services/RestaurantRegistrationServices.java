@@ -1,7 +1,7 @@
 package com.example.Restaurant.domain.Services;
 
-import com.example.Restaurant.Entitys.Kitchen;
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Kitchen;
+import com.example.Restaurant.entitys.Restaurant;
 import com.example.Restaurant.domain.Exceptions.EntityInUse;
 import com.example.Restaurant.domain.Exceptions.EntityNotFound;
 import com.example.Restaurant.repositorys.KitchenRepository;

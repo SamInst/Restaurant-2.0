@@ -1,6 +1,6 @@
 package com.example.Restaurant.infrastructure;
 
-import com.example.Restaurant.Entitys.Restaurant;
+import com.example.Restaurant.entitys.Restaurant;
 import com.example.Restaurant.repositorys.RestaurantRepository;
 import com.example.Restaurant.repositorys.RestaurantRepositoryQueries;
 import org.springframework.beans.factory.annotation.Autowired;

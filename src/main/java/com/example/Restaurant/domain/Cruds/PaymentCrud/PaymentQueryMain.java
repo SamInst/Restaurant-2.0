@@ -1,6 +1,6 @@
 package com.example.Restaurant.domain.Cruds.PaymentCrud;
 
-import com.example.Restaurant.Entitys.PaymentForm;
+import com.example.Restaurant.entitys.PaymentForm;
 import com.example.Restaurant.RestaurantApplication;
 import com.example.Restaurant.repositorys.PaymentFormRepository;
 import org.springframework.boot.WebApplicationType;

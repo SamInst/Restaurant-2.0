@@ -1,4 +1,4 @@
-package com.example.Restaurant.Entitys;
+package com.example.Restaurant.entitys;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

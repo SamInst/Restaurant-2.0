@@ -1,6 +1,6 @@
 package com.example.Restaurant.domain.Cruds.StateCrud;
 
-import com.example.Restaurant.Entitys.State;
+import com.example.Restaurant.entitys.State;
 import com.example.Restaurant.RestaurantApplication;
 import com.example.Restaurant.repositorys.StateRepository;
 import org.springframework.boot.WebApplicationType;

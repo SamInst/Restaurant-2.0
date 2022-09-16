@@ -1,6 +1,6 @@
 package com.example.Restaurant.infrastructure;
 
-import com.example.Restaurant.Entitys.Permission;
+import com.example.Restaurant.entitys.Permission;
 import com.example.Restaurant.repositorys.PermissionRepository;
 import org.springframework.stereotype.Component;
 
