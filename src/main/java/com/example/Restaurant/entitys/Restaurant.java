@@ -32,9 +32,9 @@ public class Restaurant {
     private LocalDateTime dateUpdate;
 
 
-
+    @JsonIgnore
     @ManyToOne
-//     @JoinColumn(name = "kitchen_code", nullable = false)
+//    @JoinColumn(name = "kitchen_code", nullable = false)
     private Kitchen kitchen;
 
     @JsonIgnore
@@ -51,11 +51,9 @@ public class Restaurant {
     public Kitchen getKitchen() {
         return kitchen;
     }
-
     public void setKitchen(Kitchen kitchen) {
         this.kitchen = kitchen;
     }
-
     public String getName() {
         return name;
     }
@@ -65,11 +63,9 @@ public class Restaurant {
     public BigDecimal getDeliveryFee() {
         return deliveryFee;
     }
-
     public void setDeliveryFee(BigDecimal deliveryFee) {
         this.deliveryFee = deliveryFee;
     }
-
     public long getId() {
         return id;
     }

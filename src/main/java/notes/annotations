@@ -1,0 +1,3 @@
+when the association ends by:
+ManyToOne -> Eager Loading
+many to many -> Lazy Loading
