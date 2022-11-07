@@ -2,6 +2,7 @@ package com.example.Restaurant.repositorys;
 
 import com.example.Restaurant.entitys.Restaurant;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import java.math.BigDecimal;
@@ -15,4 +16,6 @@ public interface RestaurantRepository extends CustomJpaRepository<Restaurant, Lo
     Optional<Restaurant> findFirstRestaurantByNameContaining(String name);
     List<Restaurant> findTop2ByNameContaining(String name);
     int countByKitchen_Id(Long kitchen);
+    @Query("from Restaurant r join r.kitchen join fetch r.paymentForms")
+    List<Restaurant> findAll();
 }

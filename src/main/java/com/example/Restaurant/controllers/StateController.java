@@ -1,4 +1,4 @@
-package com.example.Restaurant.Controllers;
+package com.example.Restaurant.controllers;
 
 import com.example.Restaurant.entitys.State;
 import com.example.Restaurant.repositorys.StateRepository;

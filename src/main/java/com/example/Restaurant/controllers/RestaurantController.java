@@ -1,4 +1,4 @@
-package com.example.Restaurant.Controllers;
+package com.example.Restaurant.controllers;
 
 import com.example.Restaurant.entitys.Restaurant;
 import com.example.Restaurant.domain.Exceptions.EntityInUse;
@@ -47,7 +47,6 @@ public class RestaurantController {
         }
         return ResponseEntity.notFound().build();
     }
-
     @PostMapping
     public ResponseEntity<?> add(@RequestBody Restaurant restaurant) {
         try {
@@ -64,11 +63,7 @@ public class RestaurantController {
             Restaurant restaurant1 = restaurantRepository.findById(restaurantId).orElse(null);
 
             if (restaurant1 != null) {
-                BeanUtils.copyProperties(restaurant, restaurant1
-
-//                        ",id", "paymentForm", "address"
-                ); // for a lot of data in kitchen
-//                Restaurant restaurantSaved = restaurantRegistrationServices.add(restaurant1.get());
+                BeanUtils.copyProperties(restaurant, restaurant1);
                 restaurant1 = restaurantRegistrationServices.add(restaurant1);
                 return ResponseEntity.ok(restaurant1);
             }

@@ -1,4 +1,4 @@
-package com.example.Restaurant.Controllers;
+package com.example.Restaurant.controllers;
 
 import com.example.Restaurant.entitys.Kitchen;
 import com.example.Restaurant.domain.Exceptions.EntityInUse;
@@ -32,6 +32,8 @@ public class KitchenController {
     public Kitchen add(@RequestBody Kitchen kitchen) {
         return kitchenRegistrationService.add(kitchen);
     }
+    
+    
     @PutMapping("/{kitchenId}")
     public ResponseEntity<Kitchen> update(@PathVariable Long kitchenId, @RequestBody Kitchen kitchen) {
         Optional <Kitchen> kitchen1 = kitchenRepository.findById(kitchenId);
@@ -42,6 +44,9 @@ public class KitchenController {
             return ResponseEntity.ok(kitchenSaved);
         }
         return ResponseEntity.notFound().build();
+        
+        
+        
     }
     @DeleteMapping("/{kitchenId}")
     public ResponseEntity<Kitchen> remove(@PathVariable Long kitchenId) {

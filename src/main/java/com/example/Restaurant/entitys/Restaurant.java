@@ -33,7 +33,7 @@ public class Restaurant {
 
 
     @JsonIgnore
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
 //    @JoinColumn(name = "kitchen_code", nullable = false)
     private Kitchen kitchen;
 
